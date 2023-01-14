@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form</title>
+
+<style type="text/css">
+form{
+margin: 10pc;
+width: 30%;
+padding: 10px;
+background-color: paleturquoise;
+border-radius: 8px;
+}
+.inp1,.inp2,.inp3,.inp4{
+margin: 10px;
+padding: 8px;
+margin-left: 2px;
+}
+.inp1{
+margin-left: 29px;
+}
+.inp2{
+margin-left: 10px;
+}
+.inp4{
+margin-left: 4px;
+}
+label{
+font-size:18px;
+margin: 5px;
+}
+.subbtn{
+width: 6pc;
+height: 3pc;
+margin: 10px;
+font-size: 20px;
+font-style: semibold;
+background-color: green;
+color: white;
+border-color: white;
+cursor: pointer; 
+border-radius: 6px;
+}
+h2{
+color: red;
+font-size: 30px;
+font-variant: small-caps;
+}
+</style>
+
+</head>
+<body>
+<center>
+<form action="datserv" method="post">
+<h2>Registration Form</h2>
+<hr>
+<label>Name : </label>
+<input type="text" placeholder="Enter Your Name" name="uname" class="inp1"><br/>
+<label>Email-Id  : </label>
+<input type="text" placeholder="Enter Your Email" name="uemail" class="inp2"><br/>
+<label>Phone No.: </label>
+<input type="text" placeholder="Enter Your Phone" name="uphone" class="inp3"><br/>
+<label>Password : </label>
+<input type="password" placeholder="Enter Your Password" name="upass" class="inp4"><br/>
+<input type="submit" value="Submit" class="subbtn">
+</form>
+</center>
+
+</body>
+</html>
