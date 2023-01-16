@@ -6,7 +6,7 @@ The project integrates with the MySQL server database using Java servlets, and p
  <h1>OUTPUT ⬇️</h1>
  <h4>1)The below page is simple html form in which we enter the Data and it stored in mySql Database using servlet Page.</h4>
  
-  <img width="650" alt="serv5-1" src="https://user-images.githubusercontent.com/118750027/212463995-9599f840-f549-41d8-bc63-0b165d605853.png">
+  <img width="750" alt="serv5-1" src="https://user-images.githubusercontent.com/118750027/212463995-9599f840-f549-41d8-bc63-0b165d605853.png">
  <h4>2)The second page is servlet page, in this page we wriiten all connection to database but we show only message in this page when data is inserted in database. </h4>
  
- <img width="650" alt="serv5-2" src="https://user-images.githubusercontent.com/118750027/212464005-88e930b7-383e-469d-993f-379ed1b45a60.png">
+ <img width="750" alt="serv5-2" src="https://user-images.githubusercontent.com/118750027/212464005-88e930b7-383e-469d-993f-379ed1b45a60.png">
